@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box;}
+
+body{background-color: cadetblue;}
+
+
+.container{width: 1250px;
+margin: 0 auto;
+}
+.flex-container{
+	display: flex;
+}
+
+.infoColumn{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.bottomContents
+{display:flex;
+flex-direction: column;
+background-color: ghostwhite;}
+
+.bottomContents h2{
+	text-align: center;
+	color: crimson
+}
+
+.showlinks{
+	display: flex;
+	flex-direction: row;
+	margin: 0 80px 0 80px;
+	width: 100
+		
+}
+
+.contentLinks{
+	margin: 0 40px 0 40px;
+}
